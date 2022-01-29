@@ -31,13 +31,13 @@ public class App {
 	//impulse candy bar purchase, add 2.15 to the total 
 	groceryTotal += 2.16;
 	System.out.println("$" + groceryTotal);
-	//birth certificate was printed incorrectly, change the middle initial to somethitng else
+	//birth certificate was printed incorrectly, change the middle initial to something else
 	middleInitial = 'X';
 	System.out.println("The person's middle initial is " + middleInitial);
 	//the season has changed, update the hot variable to the opposite of what it was
 	isItHotOutside = !isItHotOutside; 
 	System.out.println("It is hot outside - " + isItHotOutside);
-	//create a new variable of the person's full name using the first name, middle intial, and a last name of your choice
+	//create a new variable of the person's full name using the first name, middle initial, and a last name of your choice
 	String fullName = firstName + " " + middleInitial + " " + "Collins";
 	System.out.println(fullName);
 	//print a line introducing a customer and says they live at the address variable
